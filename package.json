@@ -1,8 +1,8 @@
 {
   "name": "theo-country-flags",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
-  "main": "index.js",
+  "main": "dist/countries.js",
   "scripts": {
     "build": "tsc && npm run copy-assets",
     "copy-assets": "copyfiles -u 1 src/assets/flags/**/* dist/assets/flags",

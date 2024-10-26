@@ -11,4 +11,5 @@ const countries: Country[] = data.map((country: any) => ({
   label: country.label,
   flag: `/flags/${country.code}.svg`,
 }));
+
 export default countries;
